@@ -7,3 +7,26 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  color: aliceblue;
+  background-color: black;
+  font-size: 36px;
+}
+
+.timer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  justify-content: center;
+}
+
+.field {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.value {
+  display: block;
+}
